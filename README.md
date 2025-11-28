@@ -25,7 +25,7 @@ The design ETL process followed the next steps:
 
 #### Transformation
 * We integrated the data coming from `AIMS` and `AMOS` data sources based on their shared attributes.
-* 
+* Next, we complemented 
 
 
 
