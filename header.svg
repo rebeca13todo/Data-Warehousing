@@ -1,0 +1,43 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient: Deep Space/UPC Blue -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Data Stream Gradient -->
+    <linearGradient id="data-stream" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#38bdf8;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#818cf8;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- Decorative Grid (Abstract Data Structure) -->
+  <path d="M 0 100 L 800 100 M 0 200 L 800 200 M 0 300 L 800 300" stroke="#334155" stroke-width="1" />
+  <path d="M 200 0 L 200 400 M 400 0 L 400 400 M 600 0 L 600 400" stroke="#334155" stroke-width="1" />
+
+  <!-- Glowing Data Line -->
+  <rect x="100" y="198" width="600" height="4" fill="url(#data-stream)" />
+
+  <!-- Database Icon / Abstract Shape -->
+  <circle cx="400" cy="150" r="40" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="400" cy="150" rx="40" ry="15" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="400" cy="130" rx="40" ry="15" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="400" cy="170" rx="40" ry="15" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.6"/>
+
+  <!-- Main Text -->
+  <text x="50%" y="260" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="bold" font-size="48" fill="#f8fafc" letter-spacing="2">
+    DATA WAREHOUSING
+  </text>
+
+  <!-- Subtitle -->
+  <text x="50%" y="300" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#94a3b8">
+    ETL • Architecture • Analytics
+  </text>
+</svg>
